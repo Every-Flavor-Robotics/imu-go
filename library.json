@@ -1,0 +1,58 @@
+{
+    "name": "IMU Go",
+    "version": "0.1.0",
+    "description": "A driver library for the LSM6DSO + LIS3MDL IMU combo, with orientation filtering built in",
+    "authors": [
+        {
+            "name": "Every Flavor Robotics",
+            "email": "everyflavorrobotics@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "keywords": [
+        "Robotics",
+        "IMU",
+        "Orientation",
+        "Sensors",
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Every-Flavor-Robotics/imu-go.git"
+    },
+    "dependencies": [
+        {
+            "name": "Adafruit BusIO",
+            "version": "^1.50.0",
+            "owner": "adafruit"
+        },
+        {
+            "name": "Adafruit LIS3MDL",
+            "version": "^1.2.4",
+            "owner": "adafruit"
+        },
+        {
+            "name": "Adafruit LSM6DS",
+            "version": "4.7.2",
+            "owner": "adafruit"
+        },
+        {
+            "name": "Adafruit Unified Sensor",
+            "version": "^1.1.14",
+            "owner": "adafruit"
+        },
+        {
+            "name": "Adafruit AHRS",
+            "version": "^2.3.4",
+            "owner": "adafruit"
+        }
+    ],
+    "platforms": [
+        "espressif32"
+    ],
+    "frameworks": [
+        "arduino"
+    ],
+    "build": {
+        "flags": []
+    }
+}
