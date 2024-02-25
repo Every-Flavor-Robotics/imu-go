@@ -42,8 +42,7 @@
         },
         {
             "name": "Adafruit AHRS",
-            "repository": "https://github.com/Every-Flavor-Robotics/Adafruit_AHRS.git",
-            "version": "main"
+            "repository": "https://github.com/Every-Flavor-Robotics/Adafruit_AHRS.git#main"
         }
     ],
     "platforms": [
