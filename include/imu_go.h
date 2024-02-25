@@ -56,6 +56,7 @@ class Imu
   float get_roll();
   float get_pitch();
   float get_yaw();
+  void get_gravity_vector(float *grav_x, float *grav_y, float *grav_z);
 
   // TODO: NOT IMPLEMENTED because the magdwick filter needs to be updated to
   // return this

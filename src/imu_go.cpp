@@ -415,6 +415,11 @@ float Imu::get_roll() { return filter.getRollRadians(); }
 float Imu::get_pitch() { return filter.getPitchRadians(); }
 float Imu::get_yaw() { return filter.getYawRadians(); }
 
+void Imu::get_gravity_vector(float* grav_x, float* grav_y, float* grav_z)
+{
+  filter.getGravityVector(grav_x, grav_y, grav_z);
+}
+
 float Imu::get_raw_accel_x() { return accel_event.acceleration.x; }
 float Imu::get_raw_accel_y() { return accel_event.acceleration.y; }
 float Imu::get_raw_accel_z() { return accel_event.acceleration.z; }
